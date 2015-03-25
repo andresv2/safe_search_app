@@ -1,6 +1,6 @@
 .register {
-  font-size: 12px;
-  color: ;
+  font-size: 16px;
+  color:  ;
   display: inline-block;
   text-align: center;
   position: relative;
@@ -8,9 +8,9 @@
   left:20px;
 }
 
-#links{
-  color:#F5DEB3;
-}
+  #links{
+    color:#F5DEB3;
+  }
 
 
 
