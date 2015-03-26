@@ -1,56 +1,6 @@
 <head>
-
-  <title>layout one</title>
-  <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="./one.css">
- -->
-</head>
-
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-
   <title>SANBOX</title>
-  <!--
-
-  <link rel="stylesheet" href="./one.css"> -->
-  <!-- link href="bootstrap-theme.min.css" rel="stylesheet">
-  <link href="bootstrap.min.css" rel="stylesheet">
-  <link href="bootstrap.css" rel="stylesheet"> -->
-
-
-
-  <!-- <link rel="stylesheet" href="two.css"> -->
-
-
-<div class="welcome">
-  <h2>Welcome to SandBox</h2>
-  <p><%= @quoteStr %></p><br/>
-</div>
-
-<div class="row">
-  <div class="container">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="col-md-1"></div>
-        <div class="col-md-10" id="form">
-
-          <%= form_tag "/search" do %>
-            <%= label_tag :Search_YOUTUBE_Content%><br/>
-            <%= text_field_tag :query %>
-            <br/>
-            <br/>
-
-            <%= submit_tag "Search" %>
-          <% end %>
-          </div>
-
-        </div>
 </head>
-
 <body>
   <nav class="navbar navbar-fixed-top" id="nav">
     <div class="container">
@@ -77,53 +27,33 @@
 
   <a name="top"></a>
 
-  <div class="row">
-    <div class="container" id="greeting">
-      <div class="col-md-5">
-
-        <h1>Hi Input... (<a href="/log_out">logout</a>)</h1>
-        <br />
-        <p class="lead"><%= @quoteStr %></p>
-        <div id="find">
-          <form id="cse-search-box" action="http://www.google.com/cse">
-            <input id="search" type="text" name="q">
-            <input id="submit" type="submit" value="Search">
-            <input type="hidden" name="cx" value="013474379445953100237:sx5yuk89gso">
-            <input type="hidden" name="safe" value="active">
-            <input type="hidden" name="ie" value="UTF-8">
-          </form>
-        </div><!--find-->
-      </div><!--col-md-5-->
-    </div><!--greeting-->
-    <div class="container">
-    <div class="col-md-3">
-      &nbsp;
-    </div>
-  </div>
-
+<div class="welcome">
+  <h2>Hi, Trevor!</h2>
+  <p><%= @quoteStr %></p><br/>
+</div>
+<div class="">
+  <div id="player"></div>
 </div>
 
-  </div>
-  </div><!--row-->
-
-
-<%= form_tag "/search" do %>
-<%= label_tag :query %><br/>
-<%= text_field_tag :query %>
-<br/>
-<br/>
-
-<%= submit_tag "Search" %>
-<% end %>
-</div>
 
 <div class="row">
+  <div class="container">
 
+          <%= form_tag "/search" do %>
+            <%= label_tag :Search_YOUTUBE_Content%><br/>
+            <%= text_field_tag :query %>
+            <br/>
+            <br/>
+
+            <%= submit_tag "Search" %>
+          <% end %>
+          </div>
+        </div>
+
+<div class="row">
   <div class="container" id="columns">
     <div class="col-md-4">
-      <div class="img-responsive">
       <%= image_tag "explore.png" %>
-    </div>
     </div>
     <div class="col-md-4">
       <%= image_tag "play.png" %>
@@ -131,10 +61,6 @@
     <div class="col-md-4">
       <%= image_tag "favsites.png" %>
     </div>
-
-  </div>
-</div>
-
   </div><!--columns-->
 </div><!--row-->
 
