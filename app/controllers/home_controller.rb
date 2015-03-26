@@ -20,6 +20,8 @@ class HomeController < ApplicationController
 
    # photos = flickr.photos_search(params)
    # # $stdout.puts(photos)
+
+   @user = User.find(session[:user_id])
   end
 
   def show

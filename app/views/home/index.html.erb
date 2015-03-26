@@ -30,7 +30,7 @@
   <div class="row">
     <div class="welcome">
       <div class="six columns">
-        <h2>Hi, Trevor!</h2>
+        <h2>Hi, <%= @user.name %>!</h2>
         <p><%= @quoteStr %></p><br/>
         <div id="YTsearch">
           <%= form_tag "/search" do %>

@@ -15,7 +15,9 @@
  *= require_self
  */
 
-
+.link {
+  color: black;
+}
 
 .navbar-link {
   text-transform: uppercase;
@@ -105,9 +107,7 @@
   padding-top: 40px;
 }
 
-html{
-  background-color: #20B2AA
-
-;
+body {
+  background-color: #20B2AA;
 }
 
