@@ -22,3 +22,5 @@ Ingredients:
 * Ruby on Rails
 
 * Skeleton
+
+* PostgreSQL
