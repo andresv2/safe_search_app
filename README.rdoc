@@ -1,28 +1,24 @@
-== README
+== Sandbox
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<em>Better Browsing for Kids</em>
 
-Things you may want to cover:
+This project is was created for General Assembly's cross-immersive hackathon. Sandbox will eventually be a Chrome extension that will provide children with a safe and personal internet experience.
 
-* Ruby version
+See it here: https://safesandbox.herokuapp.com/
 
-* System dependencies
+The Ninja Sloths:
 
-* Configuration
+* A.J. Cerami, User Experience
 
-* Database creation
+* Genevieve Gorta, Web Development
 
-* Database initialization
+* Andres Valencia, Web Development
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Hallie Weiss, Product Management
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Ingredients:
+
+* Ruby on Rails
+
+* Skeleton
