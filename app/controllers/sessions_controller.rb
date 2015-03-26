@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
       redirect_to "/home"
     else
       $message= "Invalid email or password"
-      redirect_to '/new'
+      redirect_to '/log_in'
     end
   end
 
