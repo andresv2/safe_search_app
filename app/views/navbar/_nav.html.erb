@@ -2,7 +2,7 @@
     <div class="container" style="max-width: 5000px">
       <div class="navbar-header">
 
-        <a class="navbar-brand" href="#top" id="name">SANDBOX</a>
+        <a class="navbar-brand" href="/" id="name">SANDBOX</a>
 
         <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -25,8 +25,18 @@
             <li><span class="fa fa-lock fa-5x" style="padding-right: 10px"></span></li>
             <li><span class="fa fa-smile-o fa-5x" style="padding-right: 10px"></span>
               <ul class="nav">
-                <li>test</li>
-                <li>test2</li>
+
+                <script>
+
+                var dropDown  = document.getElementsByClassName("nav");
+
+                for(var i = 0; i<dropDown.length; i++){
+                  dropDown.item(i).style.width = "100px";
+                }​;
+             </script>
+
+                <li>My favorite sites</li>
+                <li>My interests</li>
               </ul>
             </li>
           </ul>
