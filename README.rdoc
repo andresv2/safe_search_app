@@ -1,6 +1,6 @@
 == Sandbox
 
-_Better Browsing for Kids_
+<em>Better Browsing for Kids</em>
 
 This project is was created for General Assembly's cross-immersive hackathon. Sandbox will eventually be a Chrome extension that will provide children with a safe and personal internet experience.
 
@@ -8,7 +8,7 @@ See it here: https://safesandbox.herokuapp.com/
 
 The Ninja Sloths:
 
-* A. J. Cerami, User Experience
+* A.J. Cerami, User Experience
 
 * Genevieve Gorta, Web Development
 
